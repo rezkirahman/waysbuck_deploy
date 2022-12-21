@@ -1,0 +1,30 @@
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    position: absolute;
+}
+
+input[type="checkbox"]:after {
+    position: relative;
+}
+
+input[type="checkbox"]:checked:after {
+    content: url(../assets/checked.png);
+}
+
+
+
+/* .toppingCheckboxs{
+    display:none;
+}
+
+.toppingCheckboxs:checked +label:after{
+    content: url(/src/assets/checkmark.png);
+    position: absolute;
+}
+
+#checkboxs:checked + label::after{
+    position:absolute;
+    width: 4rem;
+    height: 4rem;
+    opacity: 1;
+} */
